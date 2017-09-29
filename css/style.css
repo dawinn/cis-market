@@ -167,22 +167,55 @@ h1 {
   background-color: #faf36e;
 }
 
-.main-promo__item:nth-child(3) {
-  background-color: #FD9892;
-}
-
-.main-promo__item:nth-child(2) {
-  background-color: #7DB1CF;
-}
-
-.main-promo__item:nth-child(6) {
-  background-color: #FABB6E;
-}
-
 .main-promo__item:nth-child(5) {
   background-color: #82E08E;
 }
 
+
+.main-promo__item--team {
+  background-color: #FD9892;
+}
+
+.main-promo__item--team::after {
+  content: "";
+  position: absolute;
+  top: 29px;
+  right: 25px;
+  width: 109px;
+  height: 65px;
+  background-image: url(../img/promo-team.png);
+  background-repeat: no-repeat;
+}
+
+.main-promo__item--prod {
+  background-color: #7DB1CF;
+}
+
+.main-promo__item--prod::after {
+  content: "";
+  position: absolute;
+  top: 29px;
+  right: 25px;
+  width: 65px;
+  height: 65px;
+  background-image: url(../img/promo-prodact.png);
+  background-repeat: no-repeat;
+}
+
+.main-promo__item--lab {
+  background-color: #FABB6E;
+}
+
+.main-promo__item--lab::after {
+  content: "";
+  position: absolute;
+  top: 29px;
+  right: 25px;
+  width: 50px;
+  height: 65px;
+  background-image: url(../img/promo-lab.png);
+  background-repeat: no-repeat;
+}
 
 .main-promo__item h3 {
   margin: 20px;
